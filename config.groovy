@@ -17,3 +17,27 @@ mongodb {
 date {
     formatter = 'yyyy-MM-dd'
 }
+
+mail {
+    host = 'smtp.exmail.qq.com'
+    port = 25
+    senderMail = 'weiqinghang@admaster.com.cn'
+    senderPass = '123qwe!!'
+    receiverList = ['weiqinghang@admaster.com.cn']
+//    receiverList2 = [
+//            'weiqinghang@admaster.com.cn',
+//            'jiangmengjun@admaster.com.cn',
+//            'zhouling@admaster.com.cn',
+//            'shaoli@admaster.com.cn',
+//            'shangrenzhen@admaster.com.cn',
+//            'zhangli@admaster.com.cn',
+//            'huangsiwei@admaster.com.cn',
+//            'liujun@admaster.com.cn',
+//            'chenjian@admaster.com.cn',
+//            'maolei@admaster.com.cn',
+//            'sunjia@admaster.com.cn'
+//    ]
+    ccList = []
+    bccList = []
+    charset = 'GBK'
+}
